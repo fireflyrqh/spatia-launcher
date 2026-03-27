@@ -17,8 +17,11 @@ xcuserdata/
 # Swift Package Manager
 .build/
 Packages/
-*.xcodeproj
 .swiftpm/
+
+# Xcode project user data (exclude personal settings, keep project structure)
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
 
 # macOS
 .DS_Store
