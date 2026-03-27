@@ -597,4 +597,10 @@ Made with ❤️ for the macOS community · GPL v3 Open Source
 
 **⭐ Star this repo if Spatia Launcher saved your workflow! ⭐**
 
+---
+
+感谢 [![LinuxDo](https://img.shields.io/badge/Linux.do-%E7%A4%BE%E5%8C%BA-brightgreen?logo=linux&logoColor=white)](https://linux.do/) 社区的支持！
+
+Thanks to the [![LinuxDo](https://img.shields.io/badge/Linux.do-Community-brightgreen?logo=linux&logoColor=white)](https://linux.do/) community for their support!
+
 </div>
