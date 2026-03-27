@@ -116,6 +116,41 @@ struct SettingsView: View {
     private var environmentSection: some View {
         AdaptiveSettingsSectionView(title: L10n.Settings.environment, icon: "mountain.2.fill") {
             VStack(spacing: 16) {
+                // 布局模式选择
+                HStack(spacing: 0) {
+                    ForEach([ThemeManager.LayoutMode.honeycomb, .classic], id: \.self) { mode in
+                        Button {
+                            withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                                themeManager.layoutMode = mode
+                            }
+                        } label: {
+                            HStack(spacing: 6) {
+                                Image(systemName: mode == .honeycomb ? "hexagon.fill" : "square.grid.3x2.fill")
+                                    .font(.system(size: 13))
+                                Text(mode == .honeycomb ? "空间模式" : "经典模式")
+                                    .font(.system(size: 13, weight: .medium))
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 8)
+                            .background {
+                                RoundedRectangle(cornerRadius: 8, style: .continuous)
+                                    .fill(themeManager.layoutMode == mode
+                                          ? (colorScheme == .dark ? Color.white.opacity(0.2) : Color.black.opacity(0.12))
+                                          : Color.clear)
+                            }
+                            .foregroundColor(themeManager.layoutMode == mode ? primaryColor : tertiaryColor)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .padding(4)
+                .background {
+                    RoundedRectangle(cornerRadius: 10, style: .continuous)
+                        .fill(colorScheme == .dark ? Color.white.opacity(0.06) : Color.black.opacity(0.04))
+                }
+                
+                Divider()
+
                 // 系统壁纸开关
                 HStack {
                     VStack(alignment: .leading, spacing: 2) {

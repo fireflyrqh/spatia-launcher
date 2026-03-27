@@ -362,6 +362,69 @@ struct ClassicAppIconView: View {
     }
 }
 
+/// 分页经典网格视图 - 支持拖放排序（与 PaginatedHoneycombView 对称设计）
+struct PaginatedClassicView: View {
+    @Bindable var stateManager: AppStateManager
+    let themeManager: ThemeManager
+
+    var body: some View {
+        GeometryReader { geometry in
+            let appsPerPage = stateManager.appsPerPage
+
+            ZStack {
+                pageContent(appsPerPage: appsPerPage, in: geometry.size)
+            }
+            .gesture(
+                DragGesture()
+                    .onEnded { value in
+                        let threshold: CGFloat = 50
+                        if value.translation.width < -threshold {
+                            stateManager.nextPage()
+                        } else if value.translation.width > threshold {
+                            stateManager.previousPage()
+                        }
+                    }
+            )
+        }
+    }
+
+    @ViewBuilder
+    private func pageContent(appsPerPage: Int, in size: CGSize) -> some View {
+        let totalPages = max(1, Int(ceil(Double(stateManager.filteredItems.count) / Double(appsPerPage))))
+        let validPageIndex = min(stateManager.currentPageIndex, totalPages - 1)
+        let startIndex = validPageIndex * appsPerPage
+        let endIndex = min(startIndex + appsPerPage, stateManager.filteredItems.count)
+
+        if startIndex < stateManager.filteredItems.count {
+            let pageItems = Array(stateManager.filteredItems[startIndex..<endIndex])
+            // 只取 .app 类型（经典模式不支持文件夹的展开浮层调用，交由外层处理）
+            let apps = pageItems.compactMap { item -> ScannedApp? in
+                if case .app(let a) = item { return a }
+                return nil
+            }
+
+            ClassicGridView(
+                apps: apps,
+                iconShape: themeManager.iconShape,
+                onAppTap: { app in
+                    stateManager.launchApp(app)
+                },
+                onReorder: { app1, app2 in
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
+                        stateManager.swapItems(.app(app1), with: .app(app2))
+                    }
+                }
+            )
+            .frame(width: size.width, height: size.height)
+            .transition(.asymmetric(
+                insertion: .move(edge: .trailing).combined(with: .opacity),
+                removal: .move(edge: .leading).combined(with: .opacity)
+            ))
+            .id(validPageIndex)
+        }
+    }
+}
+
 #Preview {
     ZStack {
         Color.gray

@@ -161,6 +161,22 @@ final class ThemeManager {
     /// 图标形状
     var iconShape: IconShape = .circle
     
+    /// 布局模式
+    enum LayoutMode: String, CaseIterable {
+        case honeycomb = "honeycomb"   // VisionOS 蜂巢布局
+        case classic   = "classic"     // 经典网格布局
+    }
+    
+    private var _layoutMode: LayoutMode = .honeycomb
+    
+    var layoutMode: LayoutMode {
+        get { _layoutMode }
+        set {
+            _layoutMode = newValue
+            UserDefaults.standard.set(newValue.rawValue, forKey: "layoutMode")
+        }
+    }
+    
     // MARK: - Initialization
     
     init() {
@@ -187,6 +203,11 @@ final class ThemeManager {
         
         // Classic path loading removed
         _spatialCustomImagePath = defaults.string(forKey: "spatialCustomImagePath")
+        
+        if let modeRaw = defaults.string(forKey: "layoutMode"),
+           let mode = LayoutMode(rawValue: modeRaw) {
+            _layoutMode = mode
+        }
     }
 
     // MARK: - Actions

@@ -206,12 +206,22 @@ struct MainLauncherView: View {
     /// 应用网格内容
     @ViewBuilder
     private func appGridContent(in size: CGSize) -> some View {
-        // 始终显示 VisionOS 蜂巢布局 (Spatial Mode)
-        PaginatedHoneycombView(
-            stateManager: appStateManager,
-            themeManager: themeManager
-        )
-        .frame(height: size.height * 0.70)
+        switch themeManager.layoutMode {
+        case .honeycomb:
+            // VisionOS 蜂巢布局
+            PaginatedHoneycombView(
+                stateManager: appStateManager,
+                themeManager: themeManager
+            )
+            .frame(height: size.height * 0.70)
+        case .classic:
+            // 经典网格布局（传统 Launchpad 风格）
+            PaginatedClassicView(
+                stateManager: appStateManager,
+                themeManager: themeManager
+            )
+            .frame(height: size.height * 0.75)
+        }
     }
     
     /// 左侧 Dock
