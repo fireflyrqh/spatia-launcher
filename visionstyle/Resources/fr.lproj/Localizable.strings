@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings (Français)
+  visionstyle
+*/
+
+// MARK: - Noms des thèmes
+"theme.spatial" = "Mode Spatial";
+"theme.classic" = "Mode Classique";
+"theme.spatial.description" = "Expérience spatiale immersive VisionOS";
+"theme.classic.description" = "Style Launchpad traditionnel";
+
+// MARK: - Noms des environnements
+"env.livingRoom" = "Salon chaleureux";
+"env.darkStudy" = "Bureau sombre";
+"env.alpineMountain" = "Montagne alpine";
+"env.auroraNight" = "Nuit d'aurore";
+"env.sunsetBeach" = "Plage au coucher du soleil";
+"env.zenGarden" = "Jardin zen";
+"env.elegantFireplace" = "Cheminée élégante";
+"env.nordicArt" = "Art nordique";
+"env.modernGray" = "Gris moderne";
+"env.cloudSunrise" = "Lever de soleil dans les nuages";
+"env.lakeMountain" = "Montagne au bord du lac";
+"env.darkStudio" = "Studio sombre";
+"env.custom" = "Image personnalisée";
+
+// MARK: - Paramètres
+"settings.title" = "Paramètres";
+"settings.theme" = "Thème";
+"settings.environment" = "Environnement spatial";
+"settings.background" = "Arrière-plan";
+"settings.useSystemWallpaper" = "Utiliser le fond d'écran système";
+"settings.customBackground" = "Arrière-plan personnalisé";
+"settings.selectImage" = "Choisir une image";
+"settings.changeImage" = "Changer l'image";
+"settings.shortcuts" = "Raccourcis clavier";
+"settings.about" = "À propos";
+"settings.version" = "Version";
+"settings.close" = "Fermer";
+
+// MARK: - Raccourcis
+"shortcut.toggle" = "Afficher/masquer le lanceur";
+"shortcut.hide" = "Masquer";
+"shortcut.refresh" = "Actualiser les apps";
+"shortcut.switchTheme" = "Changer de thème";
+"shortcut.prevPage" = "Page précédente";
+"shortcut.nextPage" = "Page suivante";
+
+// MARK: - Recherche
+"search.placeholder" = "Rechercher des apps...";
+
+// MARK: - Chargement
+"loading.scanning" = "Analyse des apps...";
+
+// MARK: - Général
+"general.cancel" = "Annuler";
+"general.done" = "Terminé";
+"general.ok" = "OK";
+
+// MARK: - À propos
+"about.description" = "Lanceur d'applications macOS nouvelle génération au style VisionOS";
+"about.syncWallpaper" = "Synchronisation automatique avec le fond d'écran de votre Mac";
+

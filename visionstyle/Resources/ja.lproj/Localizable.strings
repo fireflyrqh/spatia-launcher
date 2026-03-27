@@ -1,0 +1,86 @@
+/* 
+  Localizable.strings (日本語)
+  visionstyle
+*/
+
+// MARK: - テーマ名
+"theme.spatial" = "空間モード";
+"theme.classic" = "クラシックモード";
+"theme.spatial.description" = "VisionOS 没入型空間体験";
+"theme.classic.description" = "従来のLaunchpadスタイル";
+
+// MARK: - 環境名
+"env.livingRoom" = "くつろぎのリビング";
+"env.darkStudy" = "ダークな書斎";
+"env.alpineMountain" = "アルプスの山々";
+"env.auroraNight" = "オーロラの夜";
+"env.sunsetBeach" = "サンセットビーチ";
+"env.zenGarden" = "禅の庭";
+"env.elegantFireplace" = "エレガントな暖炉";
+"env.nordicArt" = "北欧アート";
+"env.modernGray" = "モダングレー";
+"env.cloudSunrise" = "雲海の日の出";
+"env.lakeMountain" = "湖畔の雪山";
+"env.darkStudio" = "ダークスタジオ";
+"env.custom" = "カスタム画像";
+
+// MARK: - 設定
+"settings.title" = "設定";
+"settings.theme" = "テーマ";
+"settings.environment" = "空間環境";
+"settings.background" = "背景";
+"settings.useSystemWallpaper" = "システムの壁紙を使用";
+"settings.customBackground" = "カスタム背景";
+"settings.selectImage" = "画像を選択";
+"settings.changeImage" = "画像を変更";
+"settings.shortcuts" = "キーボードショートカット";
+"settings.about" = "情報";
+"settings.version" = "バージョン";
+"settings.close" = "閉じる";
+
+// MARK: - ショートカット
+"shortcut.toggle" = "ランチャーを切替";
+"shortcut.hide" = "隠す";
+"shortcut.refresh" = "アプリを更新";
+"shortcut.switchTheme" = "テーマを切替";
+"shortcut.prevPage" = "前のページ";
+"shortcut.nextPage" = "次のページ";
+"shortcut.dragFolder" = "フォルダを作成/追加";
+"shortcut.dragFolderTip" = "アイコンを0.5秒ホールド";
+"general.rename" = "名前を変更";
+
+// MARK: - 検索
+"search.placeholder" = "アプリを検索...";
+
+// MARK: - 読み込み
+"loading.scanning" = "アプリをスキャン中...";
+
+// MARK: - 一般
+"general.cancel" = "キャンセル";
+"general.done" = "完了";
+"general.ok" = "OK";
+
+// MARK: - 情報
+"about.description" = "空間コンピューティングスタイルの次世代デスクトップアプリランチャー";
+"about.syncWallpaper" = "デスクトップ壁紙と自動同期";
+
+// MARK: - ペット
+"pet.action.feed" = "餌やり";
+"pet.action.wash" = "お風呂";
+"pet.action.play" = "遊ぶ";
+"pet.action.feed.xp" = "餌やり (+5 XP)";
+"pet.action.wash.xp" = "お風呂 (+5 XP)";
+"pet.action.play.xp" = "遊ぶ (+5 XP)";
+"pet.level" = "レベル";
+"pet.xp" = "XP";
+"pet.status.format" = "満腹度: %d | 幸福度: %d";
+"pet.limit.reached" = "%@の回数制限に達しました";
+"pet.action.success" = "%@成功！+%d XP";
+"pet.chat.welcome" = "おかえりなさい、ご主人様！";
+"pet.chat.water" = "ご主人様、今日はどれくらい水を飲みましたか？1日2000ml必要ですよ！";
+"pet.chat.rest" = "お仕事お疲れ様です。少し立ち上がってストレッチしましょう！";
+"pet.chat.thirsty" = "ご主人様、少し喉が渇きました...";
+"pet.chat.bored" = "遊んでくれませんか？少し退屈です...";
+"pet.chat.tickle" = "ご主人様、くすぐったい！";
+"pet.chat.missMe" = "ご主人様、どうしたの？寂しかった？";
+

@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings (Deutsch)
+  visionstyle
+*/
+
+// MARK: - Themennamen
+"theme.spatial" = "Räumlicher Modus";
+"theme.classic" = "Klassischer Modus";
+"theme.spatial.description" = "VisionOS immersives Raumerlebnis";
+"theme.classic.description" = "Traditioneller Launchpad-Stil";
+
+// MARK: - Umgebungsnamen
+"env.livingRoom" = "Gemütliches Wohnzimmer";
+"env.darkStudy" = "Dunkles Arbeitszimmer";
+"env.alpineMountain" = "Alpengebirge";
+"env.auroraNight" = "Polarlicht-Nacht";
+"env.sunsetBeach" = "Sonnenuntergang am Strand";
+"env.zenGarden" = "Zen-Garten";
+"env.elegantFireplace" = "Eleganter Kamin";
+"env.nordicArt" = "Nordische Kunst";
+"env.modernGray" = "Modernes Grau";
+"env.cloudSunrise" = "Wolken-Sonnenaufgang";
+"env.lakeMountain" = "Bergsee";
+"env.darkStudio" = "Dunkles Studio";
+"env.custom" = "Eigenes Bild";
+
+// MARK: - Einstellungen
+"settings.title" = "Einstellungen";
+"settings.theme" = "Design";
+"settings.environment" = "Räumliche Umgebung";
+"settings.background" = "Hintergrund";
+"settings.useSystemWallpaper" = "Systemhintergrund verwenden";
+"settings.customBackground" = "Eigener Hintergrund";
+"settings.selectImage" = "Bild auswählen";
+"settings.changeImage" = "Bild ändern";
+"settings.shortcuts" = "Tastenkürzel";
+"settings.about" = "Über";
+"settings.version" = "Version";
+"settings.close" = "Schließen";
+
+// MARK: - Tastenkürzel
+"shortcut.toggle" = "Launcher öffnen/schließen";
+"shortcut.hide" = "Ausblenden";
+"shortcut.refresh" = "Apps aktualisieren";
+"shortcut.switchTheme" = "Design wechseln";
+"shortcut.prevPage" = "Vorherige Seite";
+"shortcut.nextPage" = "Nächste Seite";
+
+// MARK: - Suche
+"search.placeholder" = "Apps suchen...";
+
+// MARK: - Laden
+"loading.scanning" = "Apps werden gescannt...";
+
+// MARK: - Allgemein
+"general.cancel" = "Abbrechen";
+"general.done" = "Fertig";
+"general.ok" = "OK";
+
+// MARK: - Über
+"about.description" = "App-Launcher der nächsten Generation für macOS im VisionOS-Stil";
+"about.syncWallpaper" = "Automatische Synchronisierung mit Ihrem Mac-Hintergrundbild";
+

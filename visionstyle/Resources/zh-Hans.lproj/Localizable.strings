@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings (简体中文)
+  visionstyle
+*/
+
+// MARK: - 主题名称
+"theme.spatial" = "空间模式";
+"theme.classic" = "经典模式";
+"theme.spatial.description" = "VisionOS 沉浸式空间体验";
+"theme.classic.description" = "传统 Launchpad 风格";
+
+// MARK: - 环境名称
+"env.livingRoom" = "温馨客厅";
+"env.darkStudy" = "深色书房";
+"env.alpineMountain" = "阿尔卑斯雪山";
+"env.auroraNight" = "极光之夜";
+"env.sunsetBeach" = "日落海滩";
+"env.zenGarden" = "禅意花园";
+"env.elegantFireplace" = "优雅壁炉";
+"env.nordicArt" = "北欧艺术";
+"env.modernGray" = "现代灰调";
+"env.cloudSunrise" = "云海日出";
+"env.lakeMountain" = "湖畔雪山";
+"env.darkStudio" = "暗调工作室";
+"env.custom" = "自定义图片";
+
+// MARK: - 设置
+"settings.title" = "设置";
+"settings.theme" = "主题";
+"settings.environment" = "空间环境";
+"settings.background" = "背景";
+"settings.useSystemWallpaper" = "使用系统壁纸";
+"settings.customBackground" = "自定义背景";
+"settings.selectImage" = "选择图片";
+"settings.changeImage" = "更换图片";
+"settings.noImageSelected" = "尚未选择背景图片";
+"settings.remove" = "移除";
+"settings.backgroundImage" = "背景图片";
+"settings.shortcuts" = "键盘快捷键";
+"settings.about" = "关于";
+"settings.version" = "版本";
+"settings.close" = "关闭";
+
+// MARK: - 快捷键
+"shortcut.toggle" = "唤起启动器";
+"shortcut.hide" = "隐藏";
+"shortcut.refresh" = "刷新应用";
+"shortcut.switchTheme" = "切换主题";
+"shortcut.prevPage" = "上一页";
+"shortcut.nextPage" = "下一页";
+"shortcut.dragFolder" = "创建/加入文件夹";
+"shortcut.dragFolderTip" = "拖动悬停0.5秒";
+"general.rename" = "重命名";
+
+// MARK: - 搜索
+"search.placeholder" = "搜索应用...";
+
+// MARK: - 加载
+"loading.scanning" = "正在扫描应用...";
+
+// MARK: - 通用
+"general.cancel" = "取消";
+"general.done" = "完成";
+"general.ok" = "好";
+
+// MARK: - 关于
+"about.description" = "空间计算风格的下一代桌面应用启动器";
+"about.syncWallpaper" = "自动同步您的桌面壁纸";
+
+// MARK: - 宠物
+"pet.action.feed" = "喂食";
+"pet.action.wash" = "洗澡";
+"pet.action.play" = "玩耍";
+"pet.action.feed.xp" = "喂食 (+5 经验)";
+"pet.action.wash.xp" = "洗澡 (+5 经验)";
+"pet.action.play.xp" = "玩耍 (+5 经验)";
+"pet.level" = "等级";
+"pet.xp" = "经验";
+"pet.status.format" = "饱食度: %d | 快乐值: %d";
+"pet.limit.reached" = "今天%@次数已达上限";
+"pet.action.success" = "%@成功！+%d 经验";
+"pet.chat.welcome" = "亲爱的主人，欢迎回家！";
+"pet.chat.water" = "主人今天喝了多少水呢？每天需要 2000ml 哦！";
+"pet.chat.rest" = "工作辛苦了，站起来活动一下吧！";
+"pet.chat.thirsty" = "主人，我好像有点渴了...";
+"pet.chat.bored" = "主人，我们来玩会儿吧！";
+"pet.chat.tickle" = "主人，好痒！";
+"pet.chat.missMe" = "主人，怎么了，是想我了吗？";

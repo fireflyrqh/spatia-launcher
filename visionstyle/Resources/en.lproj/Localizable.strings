@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings (English)
+  visionstyle
+*/
+
+// MARK: - Theme Names
+"theme.spatial" = "Spatial Mode";
+"theme.classic" = "Classic Mode";
+"theme.spatial.description" = "VisionOS immersive spatial experience";
+"theme.classic.description" = "Traditional Launchpad style";
+
+// MARK: - Environment Names
+"env.livingRoom" = "Cozy Living Room";
+"env.darkStudy" = "Dark Study";
+"env.alpineMountain" = "Alpine Mountain";
+"env.auroraNight" = "Aurora Night";
+"env.sunsetBeach" = "Sunset Beach";
+"env.zenGarden" = "Zen Garden";
+"env.elegantFireplace" = "Elegant Fireplace";
+"env.nordicArt" = "Nordic Art";
+"env.modernGray" = "Modern Gray";
+"env.cloudSunrise" = "Cloud Sunrise";
+"env.lakeMountain" = "Lake Mountain";
+"env.darkStudio" = "Dark Studio";
+"env.custom" = "Custom Image";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.theme" = "Theme";
+"settings.environment" = "Spatial Environment";
+"settings.background" = "Background";
+"settings.useSystemWallpaper" = "Use System Wallpaper";
+"settings.customBackground" = "Custom Background";
+"settings.selectImage" = "Select Image";
+"settings.changeImage" = "Change Image";
+"settings.noImageSelected" = "No background image selected";
+"settings.remove" = "Remove";
+"settings.backgroundImage" = "Background Image";
+"settings.shortcuts" = "Keyboard Shortcuts";
+"settings.about" = "About";
+"settings.version" = "Version";
+"settings.close" = "Close";
+
+// MARK: - Shortcuts
+"shortcut.toggle" = "Toggle Launcher";
+"shortcut.hide" = "Hide";
+"shortcut.refresh" = "Refresh Apps";
+"shortcut.switchTheme" = "Switch Theme";
+"shortcut.prevPage" = "Previous Page";
+"shortcut.nextPage" = "Next Page";
+"shortcut.dragFolder" = "Create/Join Folder";
+"shortcut.dragFolderTip" = "Drag & Hover 0.5s";
+"general.rename" = "Rename";
+
+// MARK: - Search
+"search.placeholder" = "Search apps...";
+
+// MARK: - Loading
+"loading.scanning" = "Scanning apps...";
+
+// MARK: - General
+"general.cancel" = "Cancel";
+"general.done" = "Done";
+"general.ok" = "OK";
+
+// MARK: - About
+"about.description" = "A next-generation spatial computing application launcher";
+"about.syncWallpaper" = "Automatically sync with your desktop wallpaper";
+
+// MARK: - Pet
+"pet.action.feed" = "Feed";
+"pet.action.wash" = "Wash";
+"pet.action.play" = "Play";
+"pet.action.feed.xp" = "Feed (+5 XP)";
+"pet.action.wash.xp" = "Wash (+5 XP)";
+"pet.action.play.xp" = "Play (+5 XP)";
+"pet.level" = "Level";
+"pet.xp" = "XP";
+"pet.status.format" = "Hunger: %d | Happiness: %d";
+"pet.limit.reached" = "Daily limit reached for %@";
+"pet.action.success" = "%@ successful! +%d XP";
+"pet.chat.welcome" = "Welcome back, Master!";
+"pet.chat.water" = "Master, how much water did you drink today? You need 2000ml!";
+"pet.chat.rest" = "Working hard? Stand up and stretch a bit!";
+"pet.chat.thirsty" = "I'm a bit thirsty, Master. Are you?";
+"pet.chat.bored" = "Can we play? I'm getting a little bored...";
+"pet.chat.tickle" = "Master, it tickles!";
+"pet.chat.missMe" = "Master, what's wrong? Did you miss me?";

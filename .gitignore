@@ -1,0 +1,61 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# Swift Package Manager
+.build/
+Packages/
+*.xcodeproj
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Pods
+Pods/
+Podfile.lock
+
+# Generated
+*.app
+*.dSYM/
+*.framework
+*.o
+*.a
+*.dylib
+
+# Temporary build artifacts
+*.temp
+*.tmp
+
+# Release builds (optional - keep if you want to exclude)
+# *.dmg
+# Releases/
+
+# web folder (don't upload to GitHub)
+/web/

@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings (Español)
+  visionstyle
+*/
+
+// MARK: - Nombres de temas
+"theme.spatial" = "Modo Espacial";
+"theme.classic" = "Modo Clásico";
+"theme.spatial.description" = "Experiencia espacial inmersiva de VisionOS";
+"theme.classic.description" = "Estilo tradicional de Launchpad";
+
+// MARK: - Nombres de entornos
+"env.livingRoom" = "Sala acogedora";
+"env.darkStudy" = "Estudio oscuro";
+"env.alpineMountain" = "Montaña alpina";
+"env.auroraNight" = "Noche de aurora";
+"env.sunsetBeach" = "Playa al atardecer";
+"env.zenGarden" = "Jardín zen";
+"env.elegantFireplace" = "Chimenea elegante";
+"env.nordicArt" = "Arte nórdico";
+"env.modernGray" = "Gris moderno";
+"env.cloudSunrise" = "Amanecer entre nubes";
+"env.lakeMountain" = "Montaña junto al lago";
+"env.darkStudio" = "Estudio oscuro";
+"env.custom" = "Imagen personalizada";
+
+// MARK: - Ajustes
+"settings.title" = "Ajustes";
+"settings.theme" = "Tema";
+"settings.environment" = "Entorno espacial";
+"settings.background" = "Fondo";
+"settings.useSystemWallpaper" = "Usar fondo del sistema";
+"settings.customBackground" = "Fondo personalizado";
+"settings.selectImage" = "Seleccionar imagen";
+"settings.changeImage" = "Cambiar imagen";
+"settings.shortcuts" = "Atajos de teclado";
+"settings.about" = "Acerca de";
+"settings.version" = "Versión";
+"settings.close" = "Cerrar";
+
+// MARK: - Atajos
+"shortcut.toggle" = "Mostrar/ocultar lanzador";
+"shortcut.hide" = "Ocultar";
+"shortcut.refresh" = "Actualizar apps";
+"shortcut.switchTheme" = "Cambiar tema";
+"shortcut.prevPage" = "Página anterior";
+"shortcut.nextPage" = "Página siguiente";
+
+// MARK: - Búsqueda
+"search.placeholder" = "Buscar apps...";
+
+// MARK: - Carga
+"loading.scanning" = "Escaneando apps...";
+
+// MARK: - General
+"general.cancel" = "Cancelar";
+"general.done" = "Listo";
+"general.ok" = "Aceptar";
+
+// MARK: - Acerca de
+"about.description" = "Lanzador de apps para macOS de nueva generación con estilo VisionOS";
+"about.syncWallpaper" = "Sincroniza automáticamente con el fondo de pantalla de tu Mac";
+
